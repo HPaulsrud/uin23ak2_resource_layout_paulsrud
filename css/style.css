@@ -5,13 +5,12 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: arial;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 2;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 780px;
     margin: 50px auto
 }
 
@@ -29,67 +28,45 @@ body {
     display: flex;
 }
 
-.tab_triger ul li {}
-
 .tab_triger ul li label {
     position: relative;
     display: block;
-    padding: 8px 15px;
+    padding: 10px 20px;
     cursor: pointer;
-    min-width: 100px;
+    min-width: 10px;
     background: #e6e6e6;
     text-align: center;
-    font-weight: 700;
     text-transform: uppercase;
-    border-radius: 5px 8px 0 0;
+    border-radius: 7px 10px;
 
 }
 
-.tab_container_wrap{}
-
-.tab_container_wrap input {
+.tab_container input {
     position: absolute;
     width: 0;
     height: 0;
-    margin: 0;
-    z-index: -100;
-    top: -10000px;
+    margin: 10px;
+    z-index: -1500;
+    top: -1000px;
 }
 
-.tab_container_wrap input:checked + .tab_content_box {
+.tab_container input:checked + .tab_content_box {
     display: block;
 }
 
 
 
 .tab_content_box {
-    padding: 20px;
+    padding: 25px;
     display: none;
     border: 1px solid rgb(196, 195, 195);
     border-top: 8px solid #15ddd6;
-}
-
-.tab_content_box:nth-of-type(1) {
-    
-}
-
-.tab_content_box:nth-of-type(2) {
-    
-}
-
-.tab_content_box:nth-of-type(3) {
-    
-}
-
-.tab_content_box:nth-of-type(4) {
-    
-}
-
-.tab_content_box:nth-of-type(5) {
-    
 }
 
 
 .tab_content_box h2 {
     margin: 0 0 20px;
 }
+/*kilder:
+https://www.youtube.com/watch?v=oLqdy95LZSw
+https://www.youtube.com/watch?v=RMQ64ZmAqPo&t=220s*/

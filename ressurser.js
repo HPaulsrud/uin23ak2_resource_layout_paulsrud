@@ -114,4 +114,8 @@ myContent.innerHTML = showInHtml
 var resource = resources[2].sources[1]
 console.log(showInHtml)
 console.log(resources)
-console.log(resource)
+
+//https://www.youtube.com/watch?v=xA6KWfhStWI
+//https://www.youtube.com/watch?v=8MoElay6dWU
+
+//kilde til array: https://www.youtube.com/watch?v=llnoLJy9fFw
