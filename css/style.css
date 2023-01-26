@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto
+}
+
+.boxed {
+    padding: 25px;
+    margin-bottom: 8%;
+    border: 1px solid rgb(196, 195, 195);
+    color: rgb(114, 114, 114);;
+}
+
+.tab_triger ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.tab_triger ul li {}
+
+.tab_triger ul li label {
+    position: relative;
+    display: block;
+    padding: 8px 15px;
+    cursor: pointer;
+    min-width: 100px;
+    background: #e6e6e6;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px 8px 0 0;
+
+}
+
+.tab_container_wrap{}
+
+.tab_container_wrap input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin: 0;
+    z-index: -100;
+    top: -10000px;
+}
+
+.tab_container_wrap input:checked + .tab_content_box {
+    display: block;
+}
+
+
+
+.tab_content_box {
+    padding: 20px;
+    display: none;
+    border: 1px solid rgb(196, 195, 195);
+    border-top: 8px solid #15ddd6;
+}
+
+.tab_content_box:nth-of-type(1) {
+    
+}
+
+.tab_content_box:nth-of-type(2) {
+    
+}
+
+.tab_content_box:nth-of-type(3) {
+    
+}
+
+.tab_content_box:nth-of-type(4) {
+    
+}
+
+.tab_content_box:nth-of-type(5) {
+    
+}
+
+
+.tab_content_box h2 {
+    margin: 0 0 20px;
+}
